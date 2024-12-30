@@ -84,6 +84,11 @@ def make_coffee(coffee_name, ingredients):
         resources[item] -= ingredients[item]
     print(f"Here is your {coffee_name}🧋.")
 
+def print_report():
+    print(f"Water: {resources['water']}ml")
+    print(f"Milk: {resources['milk']}ml")
+    print(f"Coffee: {resources['coffee']}gm")
+    print(f"Profit: ${total_profit}")
 
 game_is_on = True
 
@@ -94,10 +99,8 @@ while game_is_on:
         game_is_on = False
     elif user_choice == "report":
         print("Report : ")
-        print(f"Water: {resources['water']}ml")
-        print(f"Milk: {resources['milk']}ml")
-        print(f"Coffee: {resources['coffee']}gm")
-        print(f"Profit: ${total_profit}")
+        print_report() 
+      
     else:
         coffee = MENU[user_choice]
         if check_ingredients(coffee['ingredients']):
