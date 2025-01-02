@@ -1,7 +1,7 @@
 
-# 100 Days of Code: Beginner Python Projects (Days 1–15)
+# 100 Days of Code: Beginner Python Projects (Days 1–16)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1–15)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1–16)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
@@ -21,95 +21,118 @@ This repository contains my progress and projects for the **Beginner Section (Da
 13. [Day 13: Debugging Techniques](#day-13-debugging-techniques)  
 14. [Day 14: Working with External Data](#day-14-working-with-external-data)  
 15. [Day 15: Structuring Code](#day-15-structuring-code)  
+16. [Day 16: Object-Oriented Programming (OOP)](#day-16-object-oriented-programming-oop)
 
 ---
 
 ### Day 1: Python Basics  
 Learned the basics of Python programming, including printing, variables, and string manipulation.  
 - **Key Concepts**: `print()`, user input, string concatenation.  
+- **Project**: Band Name Generator  
 
 ---
 
 ### Day 2: Data Types and Arithmetic Operations  
 Explored Python data types and mathematical operations.  
 - **Key Concepts**: Integers, floats, type conversion, arithmetic operators.  
+- **Project**: Tip Calculator  
 
 ---
 
 ### Day 3: Conditional Statements  
 Studied conditional logic and decision-making using `if`, `elif`, and `else` statements.  
 - **Key Concepts**: Comparison and logical operators.  
+- **Project**: Treasure Island Adventure Game  
 
 ---
 
 ### Day 4: Randomization and Lists  
 Introduced randomness and working with Python lists.  
 - **Key Concepts**: `random` module, list indexing, and list methods.  
+- **Project**: Rock, Paper, Scissors Game  
 
 ---
 
 ### Day 5: Loops and Ranges  
 Learned how to work with loops to iterate through data or perform repetitive tasks.  
 - **Key Concepts**: `for` loops, `while` loops, `range()`.  
+- **Project**: Password Generator  
 
 ---
 
 ### Day 6: Functions and Indentation  
 Explored how to define and use functions effectively in Python.  
 - **Key Concepts**: Function creation, parameters, and code structure.  
+- **Project**: Reeborg's World Maze  
 
 ---
 
 ### Day 7: Combining Loops and Conditionals  
 Practiced integrating loops with conditionals to create interactive programs.  
 - **Key Concepts**: Nested loops and conditional checks.  
+- **Project**: Hangman Game  
 
 ---
 
 ### Day 8: Functions with Parameters  
 Enhanced understanding of functions by passing parameters and arguments.  
 - **Key Concepts**: Positional arguments, keyword arguments.  
+- **Project**: Caesar Cipher  
 
 ---
 
 ### Day 9: Dictionaries and Nested Structures  
 Learned how to work with dictionaries and nested data structures.  
 - **Key Concepts**: Key-value pairs, dictionary methods, nesting dictionaries and lists.  
+- **Project**: Secret Auction Program  
 
 ---
 
 ### Day 10: Functions with Outputs  
 Studied how to return values from functions for better modular programming.  
 - **Key Concepts**: Return statements, multi-purpose functions.  
+- **Project**: Calculator  
 
 ---
 
 ### Day 11: Combining Concepts  
 Applied previously learned concepts (functions, loops, and conditionals) to create advanced programs.  
+- **Project**: BlackJack Game  
 
 ---
 
 ### Day 12: Variable Scope  
 Learned about variable scope and its impact on program behavior.  
 - **Key Concepts**: Local vs. global scope.  
+- **Project**: Number Guessing Game  
 
 ---
 
 ### Day 13: Debugging Techniques  
 Practiced debugging Python programs by identifying and fixing errors.  
 - **Key Concepts**: Debugging strategies, using `print()` statements, understanding error messages.  
+- **Project**: Debugging Exercises  
 
 ---
 
 ### Day 14: Working with External Data  
 Explored importing and working with external datasets or data structures.  
 - **Key Concepts**: Using attributes, importing modules.  
+- **Project**: Higher or Lower Game  
 
 ---
 
 ### Day 15: Structuring Code  
 Learned to structure code efficiently using functions and dictionaries for scalable applications.  
 - **Key Concepts**: Organizing code, modular programming.  
+- **Project**: Coffee Machine  
+
+---
+
+### Day 16: Object-Oriented Programming (OOP)  
+Introduced the fundamentals of object-oriented programming and how to work with classes and objects in Python.  
+- **Key Concepts**: Creating classes, attributes, methods, and objects.  
+- **Project**: Coffee Machine with Classes  
 
 ---
 
