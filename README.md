@@ -1,6 +1,6 @@
-# 100 Days of Code: Beginner Python Projects (Days 1–16)
+# 100 Days of Code: Beginner Python Projects (Days 1–17)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1–16)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1–17)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
