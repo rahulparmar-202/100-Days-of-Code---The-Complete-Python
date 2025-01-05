@@ -1,6 +1,6 @@
-# 100 Days of Code: Beginner Python Projects (Days 1–17)
+# 100 Days of Code: Beginner Python Projects (Days 1–18)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1–17)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1–18)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
@@ -23,6 +23,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 15. [Day 15: Structuring Code](#day-15-structuring-code)
 16. [Day 16: Object-Oriented Programming (OOP)](#day-16-object-oriented-programming-oop)
 17. [Day 17: OOP Principles and Quiz Project](#day-17-oop-principles-and-quiz-project)
+18. [Day 18: Turtle & Graphical User Interface](#day-18-turtle--graphical-user-interface)
 
 ---
 
@@ -175,6 +176,23 @@ Expanded knowledge of object-oriented programming by creating a quiz program.
 
 - **Key Concepts**: OOP principles (Inheritance, encapsulation, designing classes).
 - **Project**: Quiz Program
+
+---
+
+### Day 18: Turtle & Graphical User Interface
+
+Learned to use the `turtle` module to create graphical designs and explored GUI concepts.
+
+- **Key Concepts**:
+
+  - Turtle graphics basics: drawing shapes and patterns.
+  - Color manipulation with random RGB values.
+  - Creating structured layouts using loops.
+
+- **Project**: The Hirst Painting
+  - Designed an abstract art piece inspired by Damien Hirst.
+  - Used turtle graphics to draw a grid of colorful dots with random colors.
+  - Explored modular programming to create reusable code for graphics.
 
 ---
 
