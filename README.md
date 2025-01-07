@@ -208,8 +208,8 @@ Learned to use the `turtle` module to create graphical designs and explored GUI 
 
 - **Project**: Etch-A-Sketch App, Turtle Race
 
-  - _Built a Etch-A-Sketch app_ allowing users to draw using keyboard keys (w,s,a,d,c).
-  - _Turtle Race simulation_ where multiple turtles race to the finish line.
+  - Built a Etch-A-Sketch app allowing users to draw using keyboard keys (w,s,a,d,c).
+  - Turtle Race simulation where multiple turtles race to the finish line.
   - customized turtle appearances and behaviors (random steps speed, color)
 
 ---
