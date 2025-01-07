@@ -1,6 +1,6 @@
-# 100 Days of Code: Beginner Python Projects (Days 1–18)
+# 100 Days of Code: Beginner Python Projects (Days 1-19)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1–18)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1-19)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
@@ -24,6 +24,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 16. [Day 16: Object-Oriented Programming (OOP)](#day-16-object-oriented-programming-oop)
 17. [Day 17: OOP Principles and Quiz Project](#day-17-oop-principles-and-quiz-project)
 18. [Day 18: Turtle & Graphical User Interface](#day-18-turtle--graphical-user-interface)
+19. [Day 19: Turtle Race and Higher-Order Functions](#day-19-turtle-race-and-higher-order-functions)
 
 ---
 
@@ -193,6 +194,23 @@ Learned to use the `turtle` module to create graphical designs and explored GUI 
   - Designed an abstract art piece inspired by Damien Hirst.
   - Used turtle graphics to draw a grid of colorful dots with random colors.
   - Explored modular programming to create reusable code for graphics.
+
+---
+
+### Day 19: Turtle Race and Higher-Order Functions
+
+Learned to use the `turtle` module to create graphical designs and explored GUI concepts.
+
+- **Key Concepts**:
+
+  - Turtle Graphics: Drawing and animation with the turtle module.
+  - Higher-Order Functions: Functions that accept or return other functions.
+
+- **Project**: Etch-A-Sketch App, Turtle Race
+
+  - _Built a Etch-A-Sketch app_ allowing users to draw using keyboard keys (w,s,a,d,c).
+  - _Turtle Race simulation_ where multiple turtles race to the finish line.
+  - customized turtle appearances and behaviors (random steps speed, color)
 
 ---
 
