@@ -214,23 +214,6 @@ Learned to use the `turtle` module to create graphical designs and explored GUI 
 
 ---
 
-### Day 19: Turtle Race and Higher-Order Functions
-
-Learned to use the `turtle` module to create graphical designs and explored GUI concepts.
-
-- **Key Concepts**:
-
-  - Turtle Graphics: Drawing and animation with the turtle module.
-  - Higher-Order Functions: Functions that accept or return other functions.
-
-- **Project**: Etch-A-Sketch App, Turtle Race
-
-- _Built a Etch-A-Sketch app_ allowing users to draw using keyboard keys (w,s,a,d,c).
-- _Turtle Race simulation_ where multiple turtles race to the finish line.
-- customized turtle appearances and behaviors (random steps speed, color)
-
----
-
 ## About This Repository
 
 This repository showcases my daily progress and projects during the beginner phase of the 100 Days of Code challenge. Each day builds upon the previous one, providing a solid foundation in Python programming.
