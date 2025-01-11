@@ -25,6 +25,8 @@ This repository contains my progress and projects for the **Beginner Section (Da
 17. [Day 17: OOP Principles and Quiz Project](#day-17-oop-principles-and-quiz-project)
 18. [Day 18: Turtle & Graphical User Interface](#day-18-turtle--graphical-user-interface)
 19. [Day 19: Turtle Race and Higher-Order Functions](#day-19-turtle-race-and-higher-order-functions)
+20. [Day 20: Classes and Snake Game (Part 1)](<#day-20-classes-and-snake-game-(Part-1)>)
+21. [Day 21: Snake Game (Part 2)](<#day-21-snake-game-(part-2)>)
 
 ---
 
