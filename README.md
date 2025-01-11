@@ -214,6 +214,36 @@ Learned to use the `turtle` module to create graphical designs and explored GUI 
 
 ---
 
+### Day 20: Classes and Snake Game (Part 1)
+
+Learned the fundamentals of object-oriented programming (OOP) and started building the Snake Game.
+
+- **Key Concepts**:
+
+  - Classes, objects, attributes, and methods.
+  - Using the `turtle` module with OOP principles.
+
+- **Project**: Snake Game (Part 1)
+  - Created the game window and designed a snake represented by square segments.
+  - Implemented smooth snake movement with keyboard controls for directional changes.
+
+---
+
+### Day 21: Snake Game (Part 2)
+
+Enhanced the Snake Game by completing its core features.
+
+- **Key Concepts**:
+
+  - Collision detection, food mechanics, and dynamic scoreboards.
+
+- **Project**: Snake Game (Part 2)
+  - Added collision detection for walls and self, and implemented a game-over condition.
+  - Introduced food that increases the snake’s length and updates the score.
+  - Built a functional scoreboard that tracks and displays the player's score.
+
+---
+
 ## About This Repository
 
 This repository showcases my daily progress and projects during the beginner phase of the 100 Days of Code challenge. Each day builds upon the previous one, providing a solid foundation in Python programming.
