@@ -27,7 +27,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 19. [Day 19: Turtle Race and Higher-Order Functions](#day-19-turtle-race-and-higher-order-functions)
 20. [Day 20: Classes and Snake Game (Part 1)](#day-20-classes-and-snake-game-Part-1)
 21. [Day 21: Snake Game (Part 2)](#day-21-snake-game-part-2)
-22 .[Day 22: Pong Game](#day-22-pong-game)
+22. [Day 22: Pong Game](#day-22-pong-game)
 ---
 
 ### Day 1: Python Basics
