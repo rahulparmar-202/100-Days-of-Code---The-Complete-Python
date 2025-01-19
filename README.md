@@ -1,6 +1,6 @@
-# 100 Days of Code: Beginner Python Projects (Days 1-19)
+# 100 Days of Code: Beginner Python Projects (Days 1-22)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1-19)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1-22)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
@@ -27,7 +27,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 19. [Day 19: Turtle Race and Higher-Order Functions](#day-19-turtle-race-and-higher-order-functions)
 20. [Day 20: Classes and Snake Game (Part 1)](#day-20-classes-and-snake-game-Part-1)
 21. [Day 21: Snake Game (Part 2)](#day-21-snake-game-part-2)
-
+22. [Day 22: Pong Game](#day-22-pong-game)
 ---
 
 ### Day 1: Python Basics
@@ -244,6 +244,25 @@ Enhanced the Snake Game by completing its core features.
   - Introduced food that increases the snake’s length and updates the score.
   - Built a functional scoreboard that tracks and displays the player's score.
 
+---
+
+## Day 22: Pong Game
+
+This project involved building a classic Pong game using Python and the Turtle graphics library.
+
+- **Key Concepts:**
+
+  - *Object-Oriented Programming (OOP)*: Utilized classes to represent game objects (paddles, ball) and their attributes (position, movement).
+  - *Event Handling:* Responded to user input (keyboard presses) to control the movement of the paddles.
+  - Basic Game Development Concepts:* Applied fundamental game development principles such as game loops and managing game state.
+
+- **Project: Pong Game**
+
+  - Created a simple Pong game with two controllable paddles and a bouncing ball.
+  - Implemented game logic, including ball movement, paddle control, and scoring.
+  - Handled player input using keyboard events.
+  - Designed and implemented a basic game loop to control the game flow.
+  
 ---
 
 ## About This Repository
