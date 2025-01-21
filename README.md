@@ -28,6 +28,10 @@ This repository contains my progress and projects for the **Beginner Section (Da
 20. [Day 20: Classes and Snake Game (Part 1)](#day-20-classes-and-snake-game-Part-1)
 21. [Day 21: Snake Game (Part 2)](#day-21-snake-game-part-2)
 22. [Day 22: Pong Game](#day-22-pong-game)
+23. [Day 23: Build the Turtle Crossing Game](#day-23-build-the-turtle-crossing-game)
+24. [Day 24: Files, Directories, and Paths](#day-24-files-directories-and-paths)
+25. [Day 25: Working with CSV Data and the Pandas Library](#day-25-working-with-csv-data-and-the-pandas-library)
+
 ---
 
 ### Day 1: Python Basics
@@ -252,9 +256,9 @@ This project involved building a classic Pong game using Python and the Turtle g
 
 - **Key Concepts:**
 
-  - *Object-Oriented Programming (OOP)*: Utilized classes to represent game objects (paddles, ball) and their attributes (position, movement).
-  - *Event Handling:* Responded to user input (keyboard presses) to control the movement of the paddles.
-  - Basic Game Development Concepts:* Applied fundamental game development principles such as game loops and managing game state.
+  - _Object-Oriented Programming (OOP)_: Utilized classes to represent game objects (paddles, ball) and their attributes (position, movement).
+  - _Event Handling:_ Responded to user input (keyboard presses) to control the movement of the paddles.
+  - Basic Game Development Concepts:\* Applied fundamental game development principles such as game loops and managing game state.
 
 - **Project: Pong Game**
 
@@ -262,7 +266,69 @@ This project involved building a classic Pong game using Python and the Turtle g
   - Implemented game logic, including ball movement, paddle control, and scoring.
   - Handled player input using keyboard events.
   - Designed and implemented a basic game loop to control the game flow.
-  
+
+---
+
+## **Day 23: Build the Turtle Crossing Game**
+
+### **Learning Highlights**
+
+- Gained hands-on experience with object-oriented programming (OOP).
+- Learned to manage game loops and event listeners in Python.
+- Designed a fun game with dynamic graphics using the `turtle` module.
+
+### **Project: Turtle Crossing Game**
+
+- **Description**: Built a game inspired by the classic "Frogger," where the player controls a turtle crossing a road filled with moving vehicles.
+- **Key Features**:
+  - Vehicles move at varying speeds.
+  - The game becomes progressively challenging as the player levels up.
+  - Implemented collision detection to end the game when the turtle collides with a vehicle.
+
+---
+
+## **Day 24: Files, Directories, and Paths**
+
+### **Learning Highlights**
+
+- Explored file handling in Python, including reading from and writing to text files.
+- Worked with directories and paths using the `os` module.
+- Enhanced skills in automating tasks with Python.
+
+### **Project: Mail Merge Project**
+
+- **Description**: Created an automated mail merge program to generate personalized letters for multiple recipients.
+- **Key Features**:
+  - Read recipient names from a file.
+  - Replaced placeholders in a template with recipient-specific details.
+  - Outputted personalized letters to individual files.
+
+---
+
+## **Day 25: Working with CSV Data and the Pandas Library**
+
+### **Learning Highlights**
+
+- Learned to work with CSV data using the `pandas` library.
+- Mastered reading, analyzing, and manipulating tabular data.
+- Visualized data using external datasets.
+
+### **Project: U.S. States Game**
+
+- **Description**: Developed an interactive map-based game where users guess the names of U.S. states.
+- **Key Features**:
+  - Displayed correct guesses on a map using `turtle` graphics.
+  - Stored unguessed states in a CSV file for further review.
+  - Utilized `pandas` for efficient data processing.
+
+---
+
+## **Key Takeaways**
+
+- Advanced programming skills by combining `turtle`, `pandas`, and file handling.
+- Built interactive and data-driven Python projects.
+- Gained practical experience in game development, file automation, and data visualization.
+
 ---
 
 ## About This Repository
