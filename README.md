@@ -1,6 +1,6 @@
-# 100 Days of Code: Beginner Python Projects (Days 1-22)
+# 100 Days of Code: Beginner Python Projects (Days 1-26)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1-22)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1-26)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
@@ -31,6 +31,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 23. [Day 23: Build the Turtle Crossing Game](#day-23-build-the-turtle-crossing-game)
 24. [Day 24: Files, Directories, and Paths](#day-24-files-directories-and-paths)
 25. [Day 25: Working with CSV Data and the Pandas Library](#day-25-working-with-csv-data-and-the-pandas-library)
+26. [Day 26: List Comprehension](#day-26-list-comprehension)
 
 ---
 
@@ -328,6 +329,23 @@ This project involved building a classic Pong game using Python and the Turtle g
 - Advanced programming skills by combining `turtle`, `pandas`, and file handling.
 - Built interactive and data-driven Python projects.
 - Gained practical experience in game development, file automation, and data visualization.
+
+---
+
+## Day 26: List Comprehension
+
+### Key Concepts:
+
+- **List Comprehension**: Simplifying the creation of lists with concise syntax.
+- **Conditional List Comprehension**: Filtering elements based on conditions.
+- **Data Processing**: Applying transformations to strings and other data types.
+
+### Project: NATO Alphabet Project
+
+- Developed a program that converts user-input words into their phonetic alphabet equivalent.
+- Used list comprehension to map each letter of the input word to its corresponding phonetic code.
+- Read data from a CSV file to create a phonetic alphabet dictionary.
+- Handled invalid inputs gracefully by prompting users to re-enter valid words.
 
 ---
 
