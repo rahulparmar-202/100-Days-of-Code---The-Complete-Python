@@ -1,6 +1,6 @@
-# 100 Days of Code: Beginner Python Projects (Days 1-26)
+# 100 Days of Code: Beginner Python Projects (Days 1-27)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1-26)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1-27)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
@@ -32,6 +32,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 24. [Day 24: Files, Directories, and Paths](#day-24-files-directories-and-paths)
 25. [Day 25: Working with CSV Data and the Pandas Library](#day-25-working-with-csv-data-and-the-pandas-library)
 26. [Day 26: List Comprehension](#day-26-list-comprehension)
+27. [Day 27: Dictionary Comprehension and Advanced Python Concepts](#day-27-dictionary-comprehension-and-advanced-python-concepts)
 
 ---
 
@@ -346,6 +347,23 @@ This project involved building a classic Pong game using Python and the Turtle g
 - Used list comprehension to map each letter of the input word to its corresponding phonetic code.
 - Read data from a CSV file to create a phonetic alphabet dictionary.
 - Handled invalid inputs gracefully by prompting users to re-enter valid words.
+
+---
+
+## Day 27: Dictionary Comprehension and Advanced Python Concepts
+
+### Key Concepts:
+
+- **Dictionary Comprehension**: Efficiently creating dictionaries with concise syntax.
+- **Conditional Dictionary Comprehension**: Filtering or transforming data while building dictionaries.
+- **Tkinter Basics**: Creating graphical user interfaces in Python.
+
+### Project: Mile to Kilometer Converter
+
+- Built a simple GUI application to convert distances from miles to kilometers.
+- Designed an interactive interface using Tkinter with input fields, labels, and buttons.
+- Implemented the conversion formula (kilometers = miles × 1.60934) to calculate and display results.
+- Enhanced user experience with clear layouts and dynamic result updates.
 
 ---
 
