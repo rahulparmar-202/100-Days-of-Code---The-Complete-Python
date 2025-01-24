@@ -1,6 +1,6 @@
-# 100 Days of Code: Beginner Python Projects (Days 1-27)
+# 100 Days of Code: Beginner Python Projects (Days 1-28)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1-27)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1-28)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
@@ -33,6 +33,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 25. [Day 25: Working with CSV Data and the Pandas Library](#day-25-working-with-csv-data-and-the-pandas-library)
 26. [Day 26: List Comprehension](#day-26-list-comprehension)
 27. [Day 27: Dictionary Comprehension and Advanced Python Concepts](#day-27-dictionary-comprehension-and-advanced-python-concepts)
+28. [Day 28: Tkinter Dynamic Typing and Pomodoro Timer Project](#day-28-tkinter-dynamic-typing-and-pomodoro-timer-project)
 
 ---
 
@@ -364,6 +365,25 @@ This project involved building a classic Pong game using Python and the Turtle g
 - Designed an interactive interface using Tkinter with input fields, labels, and buttons.
 - Implemented the conversion formula (kilometers = miles × 1.60934) to calculate and display results.
 - Enhanced user experience with clear layouts and dynamic result updates.
+
+---
+
+## Day 28: Tkinter Dynamic Typing and Pomodoro Timer Project
+
+### Key Concepts:
+
+- **Tkinter Dynamic Typing**: Understanding how Tkinter variables dynamically update GUI elements.
+- **Canvas Widget**: Using the Canvas widget for drawing shapes and images in GUI applications.
+- **Time Manipulation**: Working with the `time` module to control delays and timers.
+
+### Project: Pomodoro Timer
+
+- Built a productivity timer app based on the Pomodoro technique.
+- Implemented a timer for 25-minute work sessions and 5-minute breaks, with customizable durations.
+- Created a visually appealing interface using Tkinter widgets, including labels, buttons, and Canvas.
+- Used the Canvas widget to display a countdown timer and a progress indicator.
+- Applied Tkinter dynamic typing to update the timer display in real time.
+- Enhanced user interaction by adding start/reset buttons and automatic cycle progression.
 
 ---
 
