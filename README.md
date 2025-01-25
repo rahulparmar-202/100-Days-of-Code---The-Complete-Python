@@ -34,6 +34,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 26. [Day 26: List Comprehension](#day-26-list-comprehension)
 27. [Day 27: Dictionary Comprehension and Advanced Python Concepts](#day-27-dictionary-comprehension-and-advanced-python-concepts)
 28. [Day 28: Tkinter Dynamic Typing and Pomodoro Timer Project](#day-28-tkinter-dynamic-typing-and-pomodoro-timer-project)
+29. [Day 29: Tkinter Dynamic Widgets and Password Manager Project](#day-29-tkinter-dynamic-widgets-and-password-manager-project)
 
 ---
 
@@ -384,6 +385,26 @@ This project involved building a classic Pong game using Python and the Turtle g
 - Used the Canvas widget to display a countdown timer and a progress indicator.
 - Applied Tkinter dynamic typing to update the timer display in real time.
 - Enhanced user interaction by adding start/reset buttons and automatic cycle progression.
+
+---
+
+## Day 29: Tkinter Dynamic Widgets and Password Manager Project
+
+### Key Concepts:
+
+- **Dynamic Tkinter Widgets**: Adding, updating, and removing widgets dynamically during runtime.
+- **File Handling**: Reading from and writing to files to store persistent data.
+- **Data Validation**: Validating user input for better data integrity and error handling.
+- **Clipboard Functionality**: Using the `pyperclip` module to copy data to the clipboard programmatically.
+
+### Project: Password Manager
+
+- Built a password manager application with a GUI interface to store and retrieve credentials.
+- Designed a form with input fields for website name, email/username, and password.
+- Implemented a password generator feature for creating strong passwords automatically.
+- Added functionality to save credentials to a file (`data.txt`) in a structured format.
+- Included clipboard functionality to copy generated passwords for easy use.
+- Enhanced user experience with features like data validation and error prompts for missing fields.
 
 ---
 
