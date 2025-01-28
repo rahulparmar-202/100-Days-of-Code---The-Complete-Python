@@ -1,6 +1,6 @@
-# 100 Days of Code: Beginner Python Projects (Days 1-28)
+# 100 Days of Code: Beginner Python Projects (Days 1-30)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1-28)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1-30)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
@@ -35,6 +35,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 27. [Day 27: Dictionary Comprehension and Advanced Python Concepts](#day-27-dictionary-comprehension-and-advanced-python-concepts)
 28. [Day 28: Tkinter Dynamic Typing and Pomodoro Timer Project](#day-28-tkinter-dynamic-typing-and-pomodoro-timer-project)
 29. [Day 29: Tkinter Dynamic Widgets and Password Manager Project](#day-29-tkinter-dynamic-widgets-and-password-manager-project)
+30. [Day 30: Errors, Exceptions, and JSON Data (Improved Password Manager)](#day-30-errors-exceptions-and-json-data-improved-password-anager)
 
 ---
 
@@ -405,6 +406,26 @@ This project involved building a classic Pong game using Python and the Turtle g
 - Added functionality to save credentials to a file (`data.txt`) in a structured format.
 - Included clipboard functionality to copy generated passwords for easy use.
 - Enhanced user experience with features like data validation and error prompts for missing fields.
+
+---
+
+# Day 30: Errors, Exceptions, and JSON Data (Improved Password Manager)
+
+## Key Concepts:
+
+- **Error Handling**: Using `try`, `except`, `else`, and `finally` blocks to handle exceptions gracefully.
+- **Custom Exceptions**: Creating and raising custom exceptions for specific error scenarios.
+- **JSON Data Handling**: Reading from and writing to JSON files using Python's `json` module.
+- **Data Persistence**: Storing and retrieving data in a structured format for long-term use.
+
+## Project: Improved Password Manager
+
+- Enhanced the password manager project from Day 29 with advanced error handling and JSON data storage.
+- Added functionality to save website credentials (website, email, and password) to a JSON file (`data.json`) for persistent storage.
+- Implemented error handling for file operations, such as missing files or invalid JSON data.
+- Included a search feature to retrieve saved credentials by searching for a website.
+- Improved user experience with clear error messages and prompts for invalid or missing inputs.
+- Optionally, added password encryption for enhanced security.
 
 ---
 
