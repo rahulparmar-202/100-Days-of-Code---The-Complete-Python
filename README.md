@@ -1,6 +1,6 @@
-# 100 Days of Code: Beginner Python Projects (Days 1-30)
+# 100 Days of Code: Beginner Python Projects (Days 1-31)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1-30)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1-31)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
@@ -36,6 +36,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 28. [Day 28: Tkinter Dynamic Typing and Pomodoro Timer Project](#day-28-tkinter-dynamic-typing-and-pomodoro-timer-project)
 29. [Day 29: Tkinter Dynamic Widgets and Password Manager Project](#day-29-tkinter-dynamic-widgets-and-password-manager-project)
 30. [Day 30: Errors, Exceptions, and JSON Data (Improved Password Manager)](#day-30-errors-exceptions-and-json-data-improved-password-anager)
+31. [Day 31: Capstone: Flash Card App (Flash Card App)](#day-31-capstone-flash-card-app-flash-card-app)
 
 ---
 
@@ -426,6 +427,26 @@ This project involved building a classic Pong game using Python and the Turtle g
 - Included a search feature to retrieve saved credentials by searching for a website.
 - Improved user experience with clear error messages and prompts for invalid or missing inputs.
 - Optionally, added password encryption for enhanced security.
+
+---
+
+# Day 31: Capstone: Flash Card App (Flash Card App)
+
+## Key Concepts:
+
+- **GUI Development**: Using Tkinter to build an interactive flash card application.
+- **Data Handling**: Utilizing pandas to manage word lists and track progress.
+- **File Operations**: Reading from and writing to CSV files to store learning data.
+- **State Management**: Implementing logic to flip flashcards and cycle through words.
+
+## Project: Flash Card App
+
+- Developed a flash card application for language learning.
+- Implemented a card-flipping mechanism to reveal translations.
+- Used pandas to load a CSV file containing words and their meanings.
+- Added functionality to remove learned words and save progress.
+- Improved user experience with an intuitive UI and smooth transitions.
+- Included error handling for missing files and data inconsistencies.
 
 ---
 
