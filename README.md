@@ -1,6 +1,6 @@
-# 100 Days of Code: Beginner Python Projects (Days 1-31)
+# 100 Days of Code: Beginner Python Projects (Days 1-32)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1-31)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1-32)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
@@ -37,6 +37,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 29. [Day 29: Tkinter Dynamic Widgets and Password Manager Project](#day-29-tkinter-dynamic-widgets-and-password-manager-project)
 30. [Day 30: Errors, Exceptions, and JSON Data (Improved Password Manager)](#day-30-errors-exceptions-and-json-data-improved-password-anager)
 31. [Day 31: Capstone: Flash Card App (Flash Card App)](#day-31-capstone-flash-card-app-flash-card-app)
+32. [Day 32: Send Email (smtplib) and Manage Dates (Automated Birthday Wisher)](#day-32-send-email-smtplib-and-manage-dates-automated-birthday-wisher)
 
 ---
 
@@ -447,6 +448,29 @@ This project involved building a classic Pong game using Python and the Turtle g
 - Added functionality to remove learned words and save progress.
 - Improved user experience with an intuitive UI and smooth transitions.
 - Included error handling for missing files and data inconsistencies.
+
+---
+
+# Day 32: Send Email (smtplib) and Manage Dates (Automated Birthday Wisher)
+
+## Key Concepts:
+
+- **SMTP Protocol**: Using Python's `smtplib` library to send emails via an SMTP server.
+- **Date and Time Management**: Utilizing the `datetime` module to handle and compare dates for automated tasks.
+- **CSV Data Handling**: Reading and processing data from a CSV file containing birthdays.
+- **Automation**: Creating a script to automatically check for birthdays and send personalized emails.
+
+## Project: Automated Birthday Wisher
+
+Built an automated system to send birthday wishes via email using Python.  
+**Key Features**:
+
+- Uses `smtplib` to connect to an SMTP server and send emails programmatically.
+- Manages dates with `datetime` to check for birthdays on the current day.
+- Stores birthday data (name, email, year, month, day) in a CSV file (`birthdays.csv`).
+- Implements error handling for SMTP connection issues, missing files, and invalid data formats.
+- Secures sensitive email credentials using environment variables (via `python-dotenv`).
+- Provides clear logs and success/error messages in the console.
 
 ---
 
