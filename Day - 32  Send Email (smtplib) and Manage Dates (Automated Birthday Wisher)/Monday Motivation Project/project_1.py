@@ -1,12 +1,13 @@
 # --------------------- MONDAY MOTIVATIONAL QUOTES WITH E-MAIL -------------------------
 
+import os
 import smtplib
 import datetime as dt
 import random
 
 # my mail id and password
-MY_EMAIL = "YOUR_EMAIL"
-PASSWORD = "YOUR_PASSWORD"
+MY_EMAIL = os.environ.get("MY_EMAIL")
+PASSWORD = os.environ.get("MY_PASSWORD")
 
 # gets the today data like - year-month-date, time
 today = dt.datetime.today()

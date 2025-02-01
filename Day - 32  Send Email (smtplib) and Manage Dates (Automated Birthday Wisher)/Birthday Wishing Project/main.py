@@ -1,12 +1,14 @@
 ##################### Normal Starting Project ######################
 
+import os
 import datetime as dt
 import pandas
 import smtplib
 import random
 
-my_gmail = "YOUR_EMAIL"
-password = "YOUR_PASSWORD"
+# getting values from the environment variables
+my_gmail = os.environ.get("MY_EMAIL")
+password = os.environ.get("MY_PASSWORD")
 
 # can use this also with random.choice()
 letters = ["letter_1.txt", "letter_2.txt", "letter_3.txt"]
