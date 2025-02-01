@@ -1,6 +1,6 @@
-# 100 Days of Code: Beginner Python Projects (Days 1-32)
+# 100 Days of Code: Beginner Python Projects (Days 1-33)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1-32)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1-33)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
@@ -38,6 +38,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 30. [Day 30: Errors, Exceptions, and JSON Data (Improved Password Manager)](#day-30-errors-exceptions-and-json-data-improved-password-anager)
 31. [Day 31: Capstone: Flash Card App (Flash Card App)](#day-31-capstone-flash-card-app-flash-card-app)
 32. [Day 32: Send Email (smtplib) and Manage Dates (Automated Birthday Wisher)](#day-32-send-email-smtplib-and-manage-dates-automated-birthday-wisher)
+33. [Day 33: Application Programming Interfaces (APIs) (ISS Overhead Notifier)](#day-33-application-programming-interfaces-api-iss-overhead-notifier)
 
 ---
 
@@ -471,6 +472,45 @@ Built an automated system to send birthday wishes via email using Python.
 - Implements error handling for SMTP connection issues, missing files, and invalid data formats.
 - Secures sensitive email credentials using environment variables (via `python-dotenv`).
 - Provides clear logs and success/error messages in the console.
+
+---
+
+# Day 33: Application Programming Interfaces (APIs) (ISS Overhead Notifier)
+
+## Key Concepts:
+
+- **APIs (Application Programming Interfaces)**: Interacting with external services using APIs.
+- **HTTP Requests**: Using the `requests` library to fetch data from web APIs.
+- **JSON Data Handling**: Parsing and processing JSON responses.
+- **Automation**: Creating a script to notify when the ISS is overhead.
+
+## Project: ISS Overhead Notifier
+
+Built an automated system to notify when the International Space Station (ISS) is overhead.
+
+**Key Features**:
+
+- Uses `requests` to fetch ISS location data from a public API.
+- Retrieves the user’s geolocation and checks if the ISS is within range.
+- Sends an email notification when the ISS is overhead.
+- Implements error handling for network issues and API failures.
+- Uses `datetime` for handling sunrise/sunset times to notify only at night.
+
+### How It Works:
+
+1. Fetches the current ISS position from the API.
+2. Checks if the ISS is near the user’s location.
+3. Verifies if it is currently nighttime at the user’s location.
+4. If conditions are met, sends an email notification.
+5. Logs success or failure in the console.
+
+### Technologies Used:
+
+- Python
+- `requests` (for API calls)
+- `smtplib` (for email notifications)
+- `datetime` (for time-based conditions)
+- `python-dotenv` (for environment variable management)
 
 ---
 
