@@ -29,7 +29,7 @@ if day_today == 0:
         # sends the mail from sender_address to receiver's address, with message and mail Subject
         connection.sendmail(
             from_addr=MY_EMAIL,
-            to_addrs="RECEIVER'S_EMAIL",
+            to_addrs=os.environ.get("RECEIVER_ADRR"),
             msg=f"Subject:Monday Motivation\n\n{quote}"
         )
     print("Monday Motivational Quote Sent!")
