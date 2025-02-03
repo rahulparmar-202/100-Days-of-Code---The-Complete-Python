@@ -1,6 +1,6 @@
-# 100 Days of Code: Beginner Python Projects (Days 1-33)
+# 100 Days of Code: Beginner Python Projects (Days 1-34)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1-33)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1-34)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
@@ -38,7 +38,8 @@ This repository contains my progress and projects for the **Beginner Section (Da
 30. [Day 30: Errors, Exceptions, and JSON Data (Improved Password Manager)](#day-30-errors-exceptions-and-json-data-improved-password-anager)
 31. [Day 31: Capstone: Flash Card App (Flash Card App)](#day-31-capstone-flash-card-app-flash-card-app)
 32. [Day 32: Send Email (smtplib) and Manage Dates (Automated Birthday Wisher)](#day-32-send-email-smtplib-and-manage-dates-automated-birthday-wisher)
-33. [Day 33: Application Programming Interfaces (APIs) (ISS Overhead Notifier)](#day-33-application-programming-interfaces-api-iss-overhead-notifier)
+33. [Day 33: Application Programming Interfaces APIs (ISS Overhead Notifier)](#day-33-application-programming-interfaces-apis-iss-overhead-notifier)
+34. [Day 34: APIs and Trivia App (Trivia Quiz App)](#day-34-apis-and-trivia-app-trivia-quiz-app)
 
 ---
 
@@ -511,6 +512,27 @@ Built an automated system to notify when the International Space Station (ISS) i
 - `smtplib` (for email notifications)
 - `datetime` (for time-based conditions)
 - `python-dotenv` (for environment variable management)
+
+---
+
+# Day 34: APIs and Trivia App (Trivia Quiz App)
+
+## Key Concepts:
+
+- **API Integration**: Fetching trivia questions dynamically using the Open Trivia Database API.
+- **GUI Development**: Using Tkinter to build an interactive quiz application.
+- **JSON Data Handling**: Parsing API responses to extract and display relevant quiz data.
+- **State Management**: Managing question flow, user responses, and score tracking.
+
+## Project: Trivia Quiz App
+
+- Developed a **quiz application** that retrieves True/False questions from an API.
+- Implemented **real-time API requests** to fetch random quiz questions.
+- Designed a **Tkinter-based GUI** with an interactive question display.
+- Added **True/False buttons** to allow users to submit their answers.
+- Implemented **score tracking** that updates dynamically based on correct responses.
+- Ensured smooth **question transitions** and handled the end-of-quiz scenario gracefully.
+- Included **error handling** for API failures and missing data.
 
 ---
 
