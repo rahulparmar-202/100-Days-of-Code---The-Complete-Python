@@ -40,6 +40,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 32. [Day 32: Send Email (smtplib) and Manage Dates (Automated Birthday Wisher)](#day-32-send-email-smtplib-and-manage-dates-automated-birthday-wisher)
 33. [Day 33: Application Programming Interfaces APIs (ISS Overhead Notifier)](#day-33-application-programming-interfaces-apis-iss-overhead-notifier)
 34. [Day 34: APIs and Trivia App (Trivia Quiz App)](#day-34-apis-and-trivia-app-trivia-quiz-app)
+35. [Day 35: API & Notification (Rain Alert App)](#day-35-api-&-notification-rain-alert-app)
 
 ---
 
@@ -533,6 +534,28 @@ Built an automated system to notify when the International Space Station (ISS) i
 - Implemented **score tracking** that updates dynamically based on correct responses.
 - Ensured smooth **question transitions** and handled the end-of-quiz scenario gracefully.
 - Included **error handling** for API failures and missing data.
+
+---
+
+# Day 35: API & Notification (Rain Alert App)
+
+## Key Concepts:
+
+- **API Integration**: Fetching real-time weather data using the OpenWeatherMap API.
+- **Automation**: Scheduling the app to check weather updates periodically.
+- **Environment Variables**: Storing API keys securely using `os.environ.get()`.
+- **Conditional Logic**: Determining if rain is expected and triggering alerts.
+- **Notification System**: Sending WhatsApp alerts using Twilio for rain warnings.
+
+## Project: Rain Alert App
+
+- Developed a **weather alert application** that notifies users when rain is expected.
+- Integrated **OpenWeatherMap API** to fetch hourly weather data.
+- Implemented **conditional checks** to detect rain in upcoming hours.
+- Used **Twilio API** to send WhatsApp alerts if rain is forecasted.
+- Secured **API keys** using environment variables for better security.
+- Ensured **error handling** for API failures and missing data.
+- Designed the script to run **periodically** for automated alerts.
 
 ---
 
