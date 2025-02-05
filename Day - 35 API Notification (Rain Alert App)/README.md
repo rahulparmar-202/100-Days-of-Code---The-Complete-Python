@@ -1,4 +1,3 @@
-````markdown
 # Rain Alert App
 
 ## Overview
@@ -24,10 +23,10 @@ This project is a weather alert application that uses the OpenWeatherMap API to 
 
 1. **Install Dependencies**:
    Run the following command to install the required libraries:
+
    ```bash
    pip install requests twilio python-dotenv
    ```
-````
 
 2. **Set Up .env File**:
    Create a `.env` file in your project root and add the following lines:
