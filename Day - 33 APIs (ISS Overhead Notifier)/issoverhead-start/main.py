@@ -3,14 +3,18 @@ from datetime import datetime
 import smtplib
 import time
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+# this loads the environment variables from the .env file
 
 # ISS : International Space Station
 
 MY_LAT = 24.922569 # Your latitude:
 MY_LONG = 72.684761  # Your longitude:
 
-MY_EMAIL = os.environ.get("MY_GMAIL")
-MY_PASSWORD = os.environ.get("MY_PASSWORD")
+MY_EMAIL = os.getenv("MY_GMAIL")
+MY_PASSWORD = os.getenv("MY_PASSWORD")
 
 
 # this function compares the iss lat-long to my lat-long and returns True-False
@@ -59,7 +63,7 @@ def send_mail():
         connection.login(user=MY_EMAIL, password=MY_PASSWORD)
         connection.sendmail(
             from_addr=MY_EMAIL,
-            to_addrs=os.environ.get("RECEIVER_EMAIL"),
+            to_addrs=os.getenv("RECEIVER_EMAIL"),
             msg="Subject:ISS info\n\nLOOK UP , The ISS is hovering over you."
         )
         print("Mail Sent!")
