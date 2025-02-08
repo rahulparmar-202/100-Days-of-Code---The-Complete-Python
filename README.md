@@ -1,6 +1,6 @@
-# 100 Days of Code: Beginner Python Projects (Days 1-34)
+# 100 Days of Code: Beginner Python Projects (Days 1-36)
 
-This repository contains my progress and projects for the **Beginner Section (Days 1-34)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
+This repository contains my progress and projects for the **Beginner Section (Days 1-36)** of the **100 Days of Code: Python Bootcamp by Angela Yu**. Each day focuses on learning core Python concepts and applying them through practical projects.
 
 ---
 
@@ -41,6 +41,7 @@ This repository contains my progress and projects for the **Beginner Section (Da
 33. [Day 33: Application Programming Interfaces APIs (ISS Overhead Notifier)](#day-33-application-programming-interfaces-apis-iss-overhead-notifier)
 34. [Day 34: APIs and Trivia App (Trivia Quiz App)](#day-34-apis-and-trivia-app-trivia-quiz-app)
 35. [Day 35: API & Notification (Rain Alert App)](#day-35-api-&-notification-rain-alert-app)
+36. [Day 36: Stock News Alert](#day-36-stock-news-alert)
 
 ---
 
@@ -556,6 +557,31 @@ Built an automated system to notify when the International Space Station (ISS) i
 - Secured **API keys** using environment variables for better security.
 - Ensured **error handling** for API failures and missing data.
 - Designed the script to run **periodically** for automated alerts.
+
+---
+
+# Day 36: Stock News Alert
+
+## Key Concepts:
+
+- **Stock Market Data**: Fetching real-time stock prices using the **Alpha Vantage API**.
+- **News Integration**: Retrieving relevant news articles with the **News API** when stock prices fluctuate.
+- **Automation**: Periodically checking stock prices and triggering alerts.
+- **Environment Variables**: Securing API keys using `os.environ.get()`.
+- **Notification System**: Sending WhatsApp alerts using **Twilio API** for significant stock price changes.
+
+---
+
+## Project: Stock News Alert
+
+- Developed a **stock market alert system** that notifies users of significant price fluctuations.
+- Integrated **Alpha Vantage API** to fetch **daily stock price data**.
+- Implemented **change detection logic** to check if the stock price changes by more than ±5%.
+- Fetched **relevant news articles** using the **News API** when a price fluctuation occurs.
+- Used **Twilio API** to send **WhatsApp alerts** with stock updates and news summaries.
+- Stored **API keys securely** using environment variables for enhanced security.
+- Added **error handling** for API failures and missing data.
+- Designed the script to run **automatically** for real-time monitoring and notifications.
 
 ---
 
