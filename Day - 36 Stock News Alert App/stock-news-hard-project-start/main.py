@@ -2,16 +2,19 @@
 import requests
 import datetime as dt
 from twilio.rest import Client
+from dotenv import load_dotenv
+import os
+load_dotenv
 
 # TWILIO
 account_sid = "AC5473d59d7ebbac0eb90aa96530ed506c"
-auth_token = "ac7d07e3f943f44957c0892b817f0e4b"
+auth_token = os.getenv("AUTH_TOKEN")
 
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-STOCK_API = "8KMCBBFSMR3EL34U"
-NEWS_API = "13d1fce5e1f247ffb409f188dd9744c4"
+STOCK_API = os.getenv("STOCK_API")
+NEWS_API = os.getenv("NEWS_API")
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
